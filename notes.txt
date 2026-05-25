@@ -1,0 +1,157 @@
+class - 1
+==========
+
+    -> Python Course 
+
+        -> Full Stack Development 
+
+            -> HTML / CSS / JS / SQL / Django 
+
+            -> Build Web Applications 
+
+        -> Data Analytics / Data Science / Data Engineering / AI 
+
+            -> Numpy, Pandas, PyTorch etc 
+
+            -> Data Analytics: Build Visualizations 
+
+            -> Data Science: Build Models (LLM)
+
+            -> Data Engineering: Data Pipelines 
+
+            -> AI: Build AI Agents 
+
+        -> Cloud Computing / DevOps / Testing 
+
+            -> OS, Sys, Boto3 etc 
+
+            -> Build Automation Scripts 
+
+    
+    -> Course: Core Python, which is common for all above courses 
+
+        -> Python Language Fundamentals 
+
+    
+    -> What Is Python
+
+        -> https://en.wikipedia.org/wiki/Python_(programming_language)
+
+        -> Python is a high-level, general-purpose programming language 
+        that emphasizes code readability, simplicity, and 
+        ease-of-writing with the use of significant indentation, 
+        "plain English" naming, an extensive ("batteries-included") 
+        standard library, and garbage collection.
+
+        
+        -> Python is a high-level programming language 
+
+            -> High Level Language 
+
+                -> High Level Language means "Human Understandable" Language (English)
+
+                -> Python Code Looks Like English
+
+                    num1 = 10
+                    num2 = 5
+                    sum = num1 + num2 
+
+            -> Low Level Language 
+
+                -> Low Level Language means "Machine Understandable" Language (Binary Bits)
+
+                    -> Binary Bits - 0101101010101010010001
+
+                    -> 01110000 01111001 01110100 01101000 01101111 01101110 - python
+
+
+        -> Python is general-purpose programming language 
+
+            -> general-purpose programming language 
+
+                -> If we can build "Multiple Types" Of Applications 
+
+                    -> Desktop Applications ? -> Yes
+
+                    -> Web Applications ? -> Yes
+
+                    -> API's ? -> Yes
+
+                    -> Automation Scripts ? -> Yes
+
+
+            -> domain specific programming language 
+
+                -> If we can build only "Specific Types" Of Applications 
+
+                -> SQL (Structured Query Language) is the standard programming language 
+                used to communicate with, manage, and manipulate relational databases.
+
+                    -> Desktop Applications ? -> No
+
+                    -> Web Applications ? -> No
+
+                    -> API's ? -> No
+
+                    -> Automation Scripts ? -> No
+
+
+        -> Python emphasizes code readability, simplicity, and ease-of-writing with the 
+        use of significant indentation, "plain English" naming
+
+            -> Code Readability 
+
+                Java Code 
+                ---------
+
+                class Main {
+
+                    public static void main(String[] args) {
+                        
+                        int first = 10;
+                        int second = 20;
+
+                        // add two numbers
+                        int sum = first + second;
+                        System.out.println(first + " + " + second + " = "  + sum);
+                    }
+                }
+
+                class 
+                main 
+                public
+                static
+                void
+                String
+                []
+                etc 
+
+
+                Python Code
+                -----------
+
+                num1 = 10
+                num2 = 5
+                sum = num1 + num2 
+                print(sum)
+
+
+        -> Indentation
+
+            -> Indentation refers to Code Structuring 
+
+            -> In python we use "spaces" for indentation 
+
+            -> ABC Language 
+
+                -> The ABC programming language is an interactive, high-level 
+                programming language and environment developed in the 1980s 
+
+                ->  It is most famous for being the direct predecessor to Python, 
+                heavily influencing Python's syntax—such as the use of indentation 
+                rather than brackets for blocks.
+
+                -> https://cdn-blog.adafruit.com/uploads/2020/01/adafruit_2019_3368.jpg
+
+            -> NOTE: Indentation means using proper spaces in python code i.e 
+            Number Of Spaces, When to use spaces and when not to use spaces 
