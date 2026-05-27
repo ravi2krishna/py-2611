@@ -353,3 +353,111 @@ class - 2
                 async      elif       if         or         yield
 
                     
+class - 3
+==========
+
+    -> Setup Python Environment 
+
+        -> Verify Python Installation 
+
+            -> Open Command Prompt (windows) / Open Terminal (linux/macos)
+
+                -> python --version 
+
+                    -> If it says Python was not found, then start installing 
+
+    
+        -> Install Python 
+
+            -> https://www.python.org
+
+            -> Select Standalone Installer (exe)
+
+            -> Download and Install Above exe file 
+
+            -> NOTE: Close and Reopen the command prompt again 
+
+                -> python --version
+
+
+    -> Where To Write Code ?? 
+
+        -> Command Line Mode (Not Recommended)
+
+            -> We write code in command prompt 
+
+            -> Temporary, Once we close the command prompt all code is gone/reset 
+
+            -> To Enter into Command Line
+
+                -> Open Command Prompt then type python and Hit Enter 
+
+        -> Script Mode (Recommended)        
+
+            -> We write code in IDE i.e Visual Studio Code (VS Code)
+
+            -> Permanent, Once we close the IDE, code still remains intact 
+
+            -> NOTE: Install python extension in Visual Studio Code (VS Code)
+
+    
+    -> How To Write Code and Python Syntax / Rules / Best Practices To Follow 
+
+        -> Any python program we write, it should have an extension as .py 
+
+            -> app.py 
+
+        -> Execute Python program / file using 
+
+            -> python file_name
+            
+            -> python app.py
+
+        -> Python Ignores any line / statement that starts with # 
+
+            -> # means comment in python 
+
+        -> In Python we have functions
+
+            -> functions does some task 
+
+                -> any function has function_name() 
+
+                -> NOTE: We have print() - prints values on standard output 
+
+        -> When working with numeric values (1,5,-10,3.5 etc) 
+        we can directly use print()
+
+        -> When working with text data, in python we call text data as Strings 
+
+            -> Rule / Syntax: Strings should be enclosed in '' or ""
+
+    
+    -> Identifiers 
+
+        -> An Identifier is a "name" used to uniquely identify a piece of data in code 
+
+            -> Variable 
+            -> Function
+            -> Class 
+            -> Object
+            -> etc 
+
+        -> Identifier Rules 
+
+            -> Can Contain 
+
+                -> Alphabets (a-z A-Z)
+                -> Digits (0-9)
+                -> Special Symbols (Only _ (underscore) is allowed)
+
+            -> Must Start With 
+
+                -> An Alphabet or _ (underscore)
+
+        -> NOTE: Always use Proper way of naming Identifiers 
+
+        -> NOTE: Always use UPPER CASE for Static Data (Fixed Data / Doesn't Change)
+
+        
+        
