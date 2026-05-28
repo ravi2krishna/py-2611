@@ -460,4 +460,98 @@ class - 3
         -> NOTE: Always use UPPER CASE for Static Data (Fixed Data / Doesn't Change)
 
         
+class - 4
+==========
+
+    -> Variables 
+
+        -> Variable is a named storage location in computers Memory (RAM)
+        that holds some value or data (1,-10,2.5,hello etc)
+
+        -> Syntax 
+
+            variable_name = value 
+
+            -> variable_name this is Identifier (follow rules of Identifiers)
+
+            -> = means Assignment Operator 
+
+            -> value means data that you want to store 
+
+                -> data = ten (invalid)
+                -> data = "ten" (valid)
+                -> $data = 10 (invalid)
+                -> _data = 10 (valid)
+
+        
+        -> Variables are used to 
+
+            -> Assign Data (Store Data)
+
+            -> Retrieve Data (Fetch / Get Data)
+
+            -> Manipulate Data (Change / Update Data)
+
+            -> NOTE: Considering Myntra Like Application
+                Admin will Add Product - Assign Data
+                Customer will Check Product - Retrieve Data
+                Customer will Apply Coupon On Product - Manipulate Data
+        
+        
+        -> Combine Variables With Custom Statements 
+
+            -> Concatenation: Joining / Combining Strings Using + Operator      
+
+            -> NOTE: When Combining Strings with Other Data types 
+            like int, float, boolean etc use , Operator
+
+
+        -> NOTE: To know the data type of a variable 
+
+            -> we use type() function
+
+        -> NOTE: To know the Memory Address of a variable 
+
+            -> we use id() function
+
+        -> Memory Model In Python
+
+            -> If a value is already present in the Memory,
+            Python will not create a new Memory block again.
+
+            -> Rather it references the Memory address 
+
+
+        -> NOTE: To Manipulate Data, we need to use "Operators" 
+
+    
+    -> Operators
+
+        -> Operator are special "Symbols" or "Keywords", 
+        which performs operation on Variables and their Values 
+
+            -> Symbols: + - * / etc 
+
+            -> Keywords: and, or, not, is, in etc  
+
+        -> NOTE: There are different types of Operators, to deal with 
+        different types of data 
+
+            -> Arithmetic Operators
+
+            -> Compound Assignment Operators
+
+            -> Comparison Operators
+
+            -> Logical Operators
+
+            -> Membership Operators
+
+            -> Identity Operators 
+
+            -> Bitwise Operators
+
+
+
+
         
