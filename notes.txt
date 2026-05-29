@@ -552,6 +552,76 @@ class - 4
             -> Bitwise Operators
 
 
+class - 5
+==========
 
+    -> Arithmetic Operators
 
-        
+        -> We use Arithmetic Operators to perform Mathematical Calculations 
+
+            -> + - * / % 
+
+            -> // - floor division (same as division, but rounds off result)
+            -> ** - Exponentiation (same as calculating powers)
+
+        -> NOTE: Build the following Application To Calculate EMI 
+
+            -> https://www.cardekho.com/tata/nexon
+
+            -> https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/152052957065/original/viv2rtnr0jqT4esoMr1XBVveIjMPzStjcw.png?1735209986
+
+    
+    -> Compound Assignment Operators
+
+        -> Assignment Operator is = (Used to Assign Value To Variable)
+
+        -> Compound Assignment Operators, Combines Arithmetic Operators with Assignment Operator
+
+        -> Used for writing Concise Code (Short form code)
+
+            -> x = 10
+            -> x = x * 5 (long form)
+
+            -> x = 10
+            -> x *= 5 (short form)
+
+            -> NOTE: x = x * 5 and x *= 5, both does same operations  
+
+        -> NOTE: In Other Languages(like java), we have Increment & Decrement Operators 
+
+                -> Increment (++) - increase the value
+                -> Decrement (--) - decrease the value 
+
+                -> NOTE: Above Operators are not supported in python    
+
+    
+    -> Comparison Operators
+
+        -> Comparison Operators are used for comparing values and result is True/False (bool)
+
+        -> Used in Conditional Statements 
+
+            -> ==   !=   >  <  >=  <= 
+
+    
+    -> Logical Operators
+
+        -> Logical Operators are used for performing Logical operations 
+
+        -> Used to check multiple Conditionals and result is True/False (bool)
+
+                -> and: if both conditions are True, then only result is True, otherwise False 
+                -> or: if one of the conditions is True, then result is True, otherwise False 
+                -> not: negates the result, if true then false and vice versa 
+
+                -> https://upload.wikimedia.org/wikipedia/commons/4/4a/Truth_table_for_AND%2C_OR%2C_and_NOT.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
+
+    
+    
+    -> Membership Operators
+
+        -> Used for checking if an object is in the given sequence and result is True/False (bool)
+
+            -> in: return True, if given object is in sequence
+
+            -> not in: return True, if given object is not in sequence
