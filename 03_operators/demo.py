@@ -96,3 +96,33 @@ print(status)
 status = find_by_emp_id not in employee_ids
 print(status)
 
+print("=======================")
+
+# Identity Operators 
+n1 = 10
+n2 = 10
+n3 = 5
+print(id(n1))
+print(id(n2))
+print(id(n3))
+
+print(n1 is n3)
+print(n1 is n2)
+print(n1 is not n3)
+
+n1 = [10,20,30]
+n2 = [10,20,30]
+print(id(n1))
+print(id(n2))
+print(n1 is n2)
+
+print("=======================")
+
+# Bitwise Operators
+n1 = 5 # 0000000000000101
+n2 = 3 # 0000000000000011
+       # 0000000000000111 - |
+       # 0000000000000001 - &
+
+print(n1 & n2) # 1
+print(n1 | n2) # 7

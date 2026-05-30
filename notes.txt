@@ -625,3 +625,132 @@ class - 5
             -> in: return True, if given object is in sequence
 
             -> not in: return True, if given object is not in sequence
+
+
+class - 6
+==========
+
+    -> Identity Operators 
+
+        -> Used To check if given objects are same 
+
+            -> is: returns True, if objects are same 
+
+            -> is not: returns True, if objects are not same 
+
+            -> NOTE: 
+                
+                -> (Equality operator ==): Compares the values of two objects. 
+                It returns True if their contents are the same, 
+                regardless of where they are stored in memory
+
+                -> is (Identity operator): Compares the identity (memory address) of two objects. 
+                It returns True only if both variables refer to the exact same object in memory.    
+
+    
+    -> Bitwise Operators
+
+        -> Used in Low Level Programming (010101010)
+
+            -> & - if both bits are 1, then result is 1
+            -> | - if one of the bits is 1, then result is 1
+            -> etc 
+
+    
+    -> Data Types 
+
+        -> Data Types are "Categorization" that defines, what kind of data a Variable can Hold 
+
+        -> Numeric Types 
+
+            -> int: 1,2,3,0,-1,-2 etc 
+
+            -> float: 1.0,2.5,3.2,0.0,-1.5,-2.5 etc 
+
+            -> complex: In Maths we have a + ib 
+
+                -> In Python we use same concept as a + bj 
+
+        
+        -> Boolean Types 
+
+            -> bool: represents True / False 
+
+        -> NoneType 
+
+            -> NoneType: represents absence of value
+
+        -> String Type 
+
+            -> str: represents a sequence of characters enclosed in '' or ""
+
+    
+    -> Simple Data Types 
+
+        -> Holds single value in a Variable
+
+    -> Complex Data Types 
+
+        -> Holds multiple values in a Variable
+
+    
+    -> Complex Data Types 
+
+        -> Lists: List is a complex data type i.e it holds multiple values 
+        and is represented using []
+
+            -> [1,2,3,4,5]
+
+        -> Tuples: Tuple is a complex data type i.e it holds multiple values 
+        and is represented using ()
+
+            -> (1,2,3,4,5)
+
+        -> Sets: Set is a complex data type i.e it holds multiple values 
+        and is represented using {}
+
+            -> {1,2,3,4,5}
+
+        -> Dictionaries: Dictionary is a complex data type i.e it holds multiple key & values 
+        and is represented using {}
+
+            -> {"sid":101,"name":"ravi","course":"python"}
+
+    
+    -> NOTE: All the above data type are pre-defined in Python Standard Library 
+
+    -> NOTE: Based on custom Requirements from clients, we can create our own data types 
+
+    -> To create custom data type 
+
+        -> syntax 
+
+            class CustomDataType:
+                statements 
+
+    
+    -> Type Conversion & Type Casting 
+
+        -> Type Conversion / Implicit Conversion [Automatic]
+
+            -> Conversion of one data type to another data type, Automatically by python 
+
+            -> Type Conversion is SAFE i.e NO DATA LOSS 
+
+    
+    -> Type Casting / Explicit Conversion [Manual]
+
+        -> Conversion of one data type to another data type, Manually by Developer  
+
+        -> Type Casting is NOT SAFE i.e DATA LOSS 
+
+        -> Syntax
+
+            -> use Casting functions 
+
+            -> use data type function_name before variable_name / value 
+
+                -> data_type(variable_name)
+                -> data_type(value)
+
+            
