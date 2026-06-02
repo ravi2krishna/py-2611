@@ -823,3 +823,83 @@ class - 7
 
         
         -> NOTE: input() function, reads the input from user and stores the value as String 
+
+
+class - 8
+==========
+
+    -> Interpolation 
+
+        -> Interpolation technique replaces, place holders with actual values dynamically
+
+        -> Using "f-strings" (Formatted String Literals)
+
+            -> We use f with print() and { } as place holders
+
+    
+    -> Conditional Expression 
+
+        -> Conditional Expression provides a Concise way(short code)
+        to write if-else in one single line 
+
+        -> NOTE: It evaluates a condition and returns one of the two values
+        based on whether the condition is True or False 
+
+        -> Syntax 
+
+            value_if_true if condition else value_if_false 
+
+    
+    -> elif ladder 
+
+        -> elif is keyword that stands for else if 
+
+        -> It is used in Conditional statements to check "multiple conditions" (more than two)
+        sequentially after an initial if statement 
+
+        -> Syntax 
+
+            if condition:
+                statements
+            elif condition:
+                statements
+            elif condition:
+                statements
+            elif condition:
+                statements
+            else:
+                statements 
+
+
+    -> match case 
+
+        -> The match case statement was introduced in python 3.10 for "Pattern Matching"
+
+        -> In other language like java we have switch case 
+
+        -> NOTE: Use elif when you are making decisions based on conditions 
+
+            -> Marks, Age Eligibility, Salary Checks etc
+
+        -> NOTE: Use match-case when you are selecting one option from many fixed choices 
+
+            -> ATM Menu, Day Of Week, Months Name etc 
+
+        -> Syntax 
+
+            match pattern:
+                case pattern_1:
+                    statements
+                case pattern_2:
+                    statements 
+                case pattern_3:
+                    statements
+                case _:
+                    # default statement
+                 
+
+
+
+
+
+
