@@ -76,3 +76,71 @@ for name in names:
 # Requirement is format all the names in lower case     
 for name in names:
     print(name.lower())
+    
+# range() generates a sequence of numbers   
+# range(start, stop, step)
+range(1,10,1)
+print(range(1,10,1))
+
+for num in range(1,10,1):
+    print(num)
+    
+for num in range(6):
+    print(num)
+    
+for num in range(1,4):
+    print(num)   
+    
+for num in range(1,10,2):
+    print(num)
+    
+for num in range(5,100,5):
+    print(num)
+    
+for num in range(1,10,-1):
+    print(num)
+    
+    
+for num in range(10,1,-1):
+    print(num)
+    
+# Greet Hello 
+print("Hello")
+
+# Greet 5 times Hello 
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+
+# Greet 25 times Hello 
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+
+# Greet 2500 times Hello 
+for num in range(1,2500,1):
+    print("Hello",num)
