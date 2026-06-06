@@ -135,3 +135,37 @@ print(text[-2:-6:-1]) # ohty
             #     0  1  2  3  4  5 (positive indexing)
             #     p  y  t  h  o  n
             #    -6 -5 -4 -3 -2 -1 (negative indexing)
+            
+
+# String Concatenation
+s1 = "good"
+s2 = "morning"
+print(s1 + s2)
+
+# Formatted String Literals (f-strings) 
+age = 30
+# print("My Age is "+age) # TypeError: can only concatenate str (not "int") to str
+print(f"My Age is {age}")
+
+# String Repetition 
+laugh = "HaHa"
+print(laugh)
+
+hard_laugh = laugh * 10 
+print(hard_laugh)
+
+# String Immutability 
+greet = "hello"
+print(greet)
+# Requirement is Print above as Hello 
+print(greet[0])
+# greet[0] = "H" # TypeError: 'str' object does not support item assignment
+print(greet[0])
+
+print("=" * 10)
+
+# Example Of Mutable Type i.e List 
+greet = ['h','i']
+print(greet[0])
+greet[0] = "H"
+print(greet[0])
