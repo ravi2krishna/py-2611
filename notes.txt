@@ -1137,3 +1137,9 @@ class - 12
         -> String Methods in Real World Applications Point Of View 
 
             
+class - 13
+==========
+
+    -> String Methods Continued
+
+    -> 
