@@ -106,3 +106,9 @@ data = [10,20,30,40,50]
 print(data)
 backup = data.copy()
 print(backup)
+
+# PAN 
+pan_ids = ["PAN1234567A","PAN2345678B","PAN3456789C","PAN4567890D","PAN5678901E"]
+print(pan_ids)
+pan_ids[0] = "PAN1111111A"
+print(pan_ids)

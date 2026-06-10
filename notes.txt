@@ -1211,4 +1211,84 @@ class - 14
 
             -> Duplicates: Lists Allow Duplicates 
     
+
+class - 15
+==========    
+
+    -> NOTE: New Requirement is to store multiple employees PAN's 
+    Do not allow users to update PAN_ID 
+
+    -> Tuples 
+
+        -> Tuple is a data structure which allows you to "Store Multiple Values"
+        in a single variable, each value is separated with ,
+
+        -> Tuples are represented using () or using "tuple" class 
+
+        -> Accessing Data In Lists 
+
+            -> Like in Strings, We have index concept in tuples too 
+
+            -> Index Starts From Zero 
+
+            -> Supports Both Positive and Negative Index 
+
+            -> Slicing is same as Strings 
+
+            -> Loops We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Allowed 
+
+            -> Insertion Order Preserved 
+
+            -> NOTE: Tuples are "Immutable" (Cannot Be Changed)
+
+            -> NOTE: Tuples are "READ ONLY LISTS"
+
+        -> Tuples Characteristics 
+
+            -> Immutable: Tuples are Immutable In Nature 
+
+            -> Order: Lists Order Preserved 
+
+            -> Duplicates: Lists Allow Duplicates 
+
+        -> NOTE: New Requirement is to store multiple employees PAN's 
+        Do not allow users to update PAN_ID, then use Tuples 
+
     
+    
+    -> Dictionaries 
+
+        -> Dictionary is a data structure which allows you to "Store Multiple Key Values"
+        in a single variable, each pair(key:value) is separated with ,
+
+            -> https://booksandyou.in/cdn/shop/files/OxfordLearnersPocketDictionary_3.webp?v=1764916728&width=1445
+
+        -> Dictionaries are represented using { } or using "dict" class 
+
+            -> {key1:value1,key2:value2,......,key-n:value-n}
+
+        -> Accessing Data In Dictionaries 
+
+            -> NOTE: Like in Strings, We DON'T have index concept in Dictionaries
+
+                -> Dictionaries Doesn't Support Index 
+
+                -> Dictionaries Doesn't Support Slicing (As No Index)
+
+            -> Loops We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Allowed (*)
+
+                
+
+            -> Insertion Order Preserved 
