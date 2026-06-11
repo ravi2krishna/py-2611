@@ -1289,6 +1289,18 @@ class - 15
 
             -> Duplicates Allowed (*)
 
-                
+                -> Values Can be Duplicated 
+
+                -> Keys should be Unique 
+
+                    -> NOTE: If we add Duplicate Keys, Latest Key will Override Old Key
+
+                    -> NOTE: Keys must be immutable objects only, whereas values can be any object 
 
             -> Insertion Order Preserved 
+
+        -> NOTE: Dictionaries are "Mutable" Objects  
+
+class - 16
+==========
+
