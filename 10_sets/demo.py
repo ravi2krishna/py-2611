@@ -78,3 +78,17 @@ print(data)
 
 # Set Operations 
 print(dir(data))
+
+print("=" * 20)
+
+# frozenset
+data = frozenset({10,20,30,40,50})
+print(type(data))
+print(data)
+
+print("=" * 20)
+
+# Confirming frozenset is Immutable i.e no methods like add(), clear(), intersection_update present
+data = frozenset({10,20,30,40,50})
+print(type(data))
+print(dir(data))

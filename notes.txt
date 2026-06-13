@@ -1374,3 +1374,87 @@ class - 16
             
 
 
+class - 17
+==========
+
+    -> Sets Methods Continued 
+
+    -> frozenset 
+
+        -> frozenset is a data structure which allows you to "Store Multiple Values"
+        in a single variable, each value is separated with ,
+
+        -> Sets are represented using "frozenset" class 
+
+        -> Accessing Data In frozenset  
+
+            -> NOTE: Like in Strings, We DON'T have index concept in frozenset 
+
+                -> frozenset Doesn't Support Index 
+
+                -> frozenset Doesn't Support Slicing (As No Index)
+
+            -> Loops We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Not Allowed (*)
+
+                -> If we add Duplicates, except one others will be discarded 
+
+            -> Insertion Order Not Preserved (Random Access)
+
+            -> frozenset are "Immutable" (no methods like add(), clear() present)
+
+            -> NOTE: Read only sets are frozenset
+
+            -> NOTE: To Easily Remember frozenset (UUU)
+
+                -> U - Unique Data 
+
+                -> U - Unordered Data 
+
+                -> U - Unindexed Data 
+
+        -> NOTE: With frozenset we can do Mathematical set operations (class X - XI)
+
+            -> https://i0.wp.com/mathematicalmysteries.org/wp-content/uploads/2023/08/e-math-set-notation-venn-diagram.jpg?fit=800%2C539&ssl=1
+
+
+        -> frozenset Characteristics 
+
+            -> Immutable: frozenset are Immutable In Nature 
+
+            -> Unordered: frozenset Order is NOT Preserved 
+
+            -> Duplicates: Duplicates NOT Allowed 
+            
+
+    -> How / When to use above data structures in Applications ?? 
+
+        -> Lists                (When To Use)
+
+        -> Tuples               (When To Use)
+
+        -> Dictionaries         (When To Use)
+
+        -> Sets / frozenset     (When To Use)
+
+    
+    -> CRUD Applications 
+
+        -> CRUD stands for Create, Read, Update, and Delete, the four fundamental,
+        persistent operations for managing data within databases and software applications.
+
+        -> These operations allow users to add new data, view existing data, modify data, and 
+        remove data, forming the "backbone of most web applications" and user interfaces. 
+
+        -> We use CRUD for applications that require persistent storage, such as content management 
+        systems, e-commerce sites, and customer relationship management (CRM) tools. 
+        Examples include online forms, user profile pages, and dashboards for managing records.
+
+            -> https://drive.google.com/file/d/1Yabj4nFUx_1g6eAw3EsEsopEWxivTK2Z/view?usp=sharing
+
+            -> https://drive.google.com/file/d/1gpWYycwbeRWrmShF5Hc1V86KcIVYJCfE/view?usp=sharing
