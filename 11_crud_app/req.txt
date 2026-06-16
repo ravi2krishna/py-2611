@@ -61,7 +61,7 @@
     
     -> Modify/Edit Student (CRUD - U - UPDATE)
 
-        -> Search By ID 
+        -> Update By ID 
         -> If ID present, allow to update only Name 
         -> If ID not present, give appropriate Error Message 
 

@@ -103,11 +103,38 @@ while True:
         print("     Updating Student")
         print("=" * 30)
         
+        student_id = input("Enter ID: ")
+        if student_id in students:
+            new_name = input("Enter New Name: ").title()
+            students[student_id]['name'] = new_name
+            print("=" * 30)
+            print("Student Details Updated")
+            print("=" * 30)
+        else:
+            print("=" * 30)
+            print("OOPS!!! Student ID Doesn't Exist")
+            print("=" * 30)
+        
+        print(students) # After Updating 
+        
     elif choice == "3":
         # Deleting Student 
         print("=" * 30)
         print("     Deleting Student")
         print("=" * 30)
+        
+        student_id = input("Enter ID: ")
+        if student_id in students:
+            students.pop(student_id)
+            print("=" * 30)
+            print("Student Record Deleted")
+            print("=" * 30)
+        else:
+            print("=" * 30)
+            print("OOPS!!! Student ID Doesn't Exist")
+            print("=" * 30)
+            
+        print(students) # After Deleting 
         
     elif choice == "4":
         # Reading Student 
@@ -115,11 +142,78 @@ while True:
         print("     Reading Student")
         print("=" * 30)
         
+        student_id = input("Enter ID: ")
+        if student_id in students:
+            
+            # fetch student details 
+            data = students[student_id]
+            
+            # data = students['101']
+            # data = {'name': 'Ravi', 'scores': [90,80], 'skills': {'python'}}
+            # {'101': {'name': 'Ravi', 'scores': [90,80], 'skills': {'python'}}}
+            name = data['name'] # Ravi
+            scores = data['scores'] # 90 
+            skills = data['skills'] # python 
+            
+            # Average Score 
+            total_score = 0 # 90 + 80
+            count_scores = 0 # 1 + 1 
+            
+            for score in scores:
+                total_score += score
+                count_scores += 1
+                
+            average_score = total_score / count_scores
+            
+            # Highest Score 
+            high_score = scores[0] # 90 
+            
+            for score in scores:
+                if score > high_score:
+                    high_score = score
+                    
+            # Lowest Score 
+            low_score = scores[0] # 90 
+            
+            for score in scores:
+                if score < low_score:
+                    low_score = score
+                    
+            # Skills Count 
+            skills_count = 0
+            for skill in skills:
+                skills_count += 1
+            
+            # Displaying All Details 
+            print("=" * 30)
+            print("     Student Details")
+            print("=" * 30)
+            print(f"ID: {student_id}")
+            print(f"Name: {name}")
+            print(f"All Scores: {scores}")
+            print(f"Average Score: {average_score}")
+            print(f"Highest Score: {high_score}")
+            print(f"Lowest Score: {low_score}")
+            print(f"All Skills: {skills}")
+            print(f"Skills Count: {skills_count}")
+            
+        else:
+            print("=" * 30)
+            print("OOPS!!! Student ID Doesn't Exist")
+            print("=" * 30)
+            
+                    
     elif choice == "5":
         # Exit Application 
         print("=" * 30)
         print("     Exiting Application")
         print("=" * 30)
+
+        # Display Admin Info 
+        print("=" * 50)
+        print(f"        Admin Contact Number {ADMIN_INFO[0]}")
+        print(f"        Admin Email ID {ADMIN_INFO[1]}")
+        print("=" * 50)
         break
         
     else:

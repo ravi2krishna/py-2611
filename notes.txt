@@ -1463,4 +1463,25 @@ class - 17
 class - 18
 ==========
 
-    -> 
+    -> CRUD App 
+
+class - 19
+==========
+
+    -> CRUD App 
+
+class - 20
+==========
+
+    -> CRUD App Completed 
+
+    -> Work On Following Task 
+
+        -> https://www.phpcrm.com/wp-content/uploads/product-management-system.png
+
+            -> For Above Instead of Tax, add discount % then show Actual Price & Discounted Price  
+
+            -> For Above Instead of Status, add Quantity as 10 By default for all products 
+            prompt the for user to buy product based on product_id, if product_id is found 
+            decrease the Quantity by 1 
+
