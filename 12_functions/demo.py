@@ -342,3 +342,142 @@ def math_ops(num1,num2,operator):
 print(math_ops(200,100,"+"))
 print(math_ops(200,100,"*"))
 print(math_ops(200,100,"@"))
+
+print("=" * 50) 
+
+# Local Scope
+def add():
+    local_a = 10 # local variable - declared "inside the function" 
+    local_b = 20 # local variable - declared "inside the function" 
+    print(local_a)
+    print(local_b)
+    
+add()
+
+# print(local_a) # name 'local_a' is not defined
+
+print("=" * 50) 
+
+# Parameters we are passing to the functions, are also local variables        
+def add(local_a,local_b): # local variables - local_a,local_b
+    print(local_a)
+    print(local_b)
+    
+add(100,200)
+    
+# print(local_a) # name 'local_a' is not defined    
+    
+print("=" * 50) 
+
+# Global Scope
+global_a = 100 # global variable - declared "outside the function" 
+
+def add():
+    local_a = 10 # local variable - declared "inside the function" 
+    local_b = 20 # local variable - declared "inside the function" 
+    print(local_a)
+    print(local_b)
+    print(global_a) # global variable - accessed "inside the function" 
+
+add()
+print(global_a) # global variable - accessed "outside the function"    
+
+print("=" * 50) 
+
+# Name Conflict 
+global_a = 100 # global variable - declared "outside the function" 
+def add(local_a,local_b,global_a): # local variables - local_a,local_b, global_a
+    print(local_a)
+    print(local_b)
+    print(global_a)
+
+add(1,2,3)    
+
+print("=" * 50) 
+
+# Name Conflict & Access Global too
+global_a = 100 # global variable - declared "outside the function" 
+def add(local_a,local_b,global_a): # local variables - local_a,local_b, global_a
+    print(local_a)
+    print(local_b)
+    print(global_a)
+    print(globals()['global_a'])
+
+add(1,2,3)    
+
+print("=" * 50) 
+
+# global variables outside the function 
+count = 0
+print(count)
+count += 1
+print(count)
+
+print("=" * 50) 
+
+# global variables inside the function 
+count = 0
+print(count)
+
+def increment():
+    global count
+    count += 1 # UnboundLocalError: cannot access local variable 'count' where it is not associated with a value
+    print(count)
+
+increment()
+
+print("=" * 50) 
+
+# Built in functions 
+# print()
+# id()
+# type()
+# dir()
+# len()
+
+# Without Lambda i.e Regular Function 
+def add(a,b):
+    return a+b 
+print(add(40,50))
+
+print("=" * 50) 
+
+# With Lambda, Same above operation
+# lambda arguments:expression 
+
+lambda a,b:a+b # lambda function i.e One Liner Function  
+print((lambda a,b:a+b)(60,70))
+
+print("=" * 50) 
+
+# Without Lambda i.e Regular Function 
+def is_even_num(num):
+    if num % 2 == 0:
+        return True 
+    else:
+        return False 
+print(is_even_num(11))
+print(is_even_num(10))
+
+print("=" * 50) 
+
+# With Lambda, Same above operation
+# lambda arguments:expression 
+
+lambda num:num % 2 == 0 # lambda function i.e One Liner Function  
+print((lambda num:num % 2 == 0)(9))
+print((lambda num:num % 2 == 0)(8))
+
+print("=" * 50) 
+
+# Without Lambda i.e Regular Function 
+def employee_info(emp_name,emp_email,emp_location):
+    print(f"Hi {emp_name} your email is {emp_email} and work location is {emp_location}")
+employee_info(emp_location="Hyderabad",emp_name="ravi",emp_email="ravi2krishna@gmail.com")
+
+print("=" * 50) 
+
+# With Lambda, Same above operation
+# lambda arguments:expression 
+lambda emp_name,emp_email,emp_location:print(f"Hi {emp_name} your email is {emp_email} and work location is {emp_location}")
+print((lambda emp_name,emp_email,emp_location:print(f"Hi {emp_name} your email is {emp_email} and work location is {emp_location}"))(emp_location="Hyderabad",emp_name="ravi",emp_email="ravi2krishna@gmail.com"))
