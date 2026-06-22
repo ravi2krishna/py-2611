@@ -1801,3 +1801,50 @@ class - 24
                         filter(function, iterable)
 
                 -> NOTE: Just Like Using For Loop with Conditions 
+
+
+class - 25
+==========
+
+    -> Implement CRUD App Using Functional Style (11_crud_app)
+
+        -> Additionally Implement "Search Students By Skill" - Use Higher Order Function
+
+    
+    -> NOTE: Reusability in terms of "code blocks" we go for Functions 
+
+    -> NOTE: Reusability in terms of "files" we go for for Modules 
+
+    -> NOTE: Reusability in terms of "folder"  we go for for Packages 
+
+
+    -> Modules 
+
+        -> A Module is a "Simple Python File" which contains python definitions 
+
+            -> variables 
+            -> functions 
+            -> classes 
+            -> etc 
+
+        -> Syntax 
+
+            -> import module (imports complete module i.e loading all functionalities in module)
+
+            -> from module import specific_functionality (imports only what you need) # Recommended
+
+        
+        
+        -> Types Of Modules 
+
+            -> Inbuilt Modules 
+
+                -> Provided as part of Standard Python Library 
+
+            -> User Defined Modules 
+
+                -> Created By User / Developer 
+                
+                -> NOTE: Here module name is nothing but file name 
+
+            -> External Modules 
