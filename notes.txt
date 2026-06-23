@@ -1848,3 +1848,45 @@ class - 25
                 -> NOTE: Here module name is nothing but file name 
 
             -> External Modules 
+
+
+class - 26
+==========
+
+        -> External Modules 
+
+                -> Provided By 3rd Party Vendors 
+
+                    -> https://pypi.org/
+
+                -> The Python Package Index (PyPI) is a repository of software for the Python programming language.
+
+                -> PyPI helps you find and install software developed and shared by the Python community. 
+            
+                -> NOTE: To work with External Modules, we need pip 
+
+                    -> pip: PIP most commonly refers to Pip Installs Packages, 
+                    the standard package manager used to install and manage software libraries 
+                    in the Python programming language.
+
+                        -> Syntax 
+
+                            -> pip install software_library 
+
+                            -> pip install pandas 
+                            -> pip install numpy 
+                            -> pip install etc 
+
+                    -> Data Analyst 
+
+                        -> https://pypi.org/project/pandas/
+
+                    -> Full Stack Developer 
+
+                        -> https://pypi.org/project/requests/
+
+                    -> etc 
+
+                -> NOTE: Use case for an external module 
+
+                    -> https://medium.com/@noorfatimaafzalbutt/fetching-data-through-apis-with-python-a-comprehensive-guide-e3b335de0067
