@@ -60,3 +60,51 @@ with open("14_file_manage/file.txt","r") as file_data:
         print(line.strip())
 
 print("=" * 50)
+
+# Earlier we created file manually 
+
+# Now use python to create file 
+with open("14_file_manage/write.txt","w") as file_data:
+    print(file_data)
+    
+print("=" * 50)
+
+# Now use python to Write Data To file 
+with open("14_file_manage/write.txt","w") as file_data:
+    file_data.write("Hello")
+    
+print("=" * 50)
+
+# Now use python to Write Data To file Using Append Mode 
+with open("14_file_manage/write.txt","a") as file_data:
+    file_data.write(" How are you ")
+    
+print("=" * 50)
+
+# Now use python to Write Data To file Using Append Mode 
+with open("14_file_manage/write.txt","a") as file_data:
+    file_data.write(" i'm, fine ")
+    
+print("=" * 50)
+
+# Folders / Directory Management 
+# directory_name = "14_file_manage/students_data"
+# os.mkdir(directory_name) # NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+import os
+directory_name = "14_file_manage/students_data"
+# os.mkdir(directory_name)
+
+# Check if the path exists
+if os.path.exists(directory_name):
+    print("The path exists.")
+
+if not os.path.exists(directory_name):
+    os.mkdir(directory_name)
+
+# Delete Empty Folder 
+os.rmdir(directory_name)
+
+# Delete File 
+if os.path.exists("14_file_manage/text.txt"):
+    os.remove("14_file_manage/text.txt")

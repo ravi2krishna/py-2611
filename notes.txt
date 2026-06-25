@@ -1985,3 +1985,66 @@ class - 27
             -> readlines()
 
             
+class - 28
+==========
+
+        -> Writing Data To File - use "w" mode 
+
+            -> write()
+            -> writelines()
+
+            -> NOTE: In "w" mode data is overridden 
+
+        -> Writing Data To File - use "a" mode 
+
+            -> NOTE: In "a" mode data is not overridden 
+
+        -> To Manage Files / Folders (Directories) 
+
+            -> "os" module 
+
+            -> "shutil" module
+
+            -> NOTE: Create Files, Folders & Delete Files, Folders 
+            can be done with above modules 
+
+    
+    -> NOTE: We Don't Work with Text Files i.e .txt files in Real World Scenarios 
+
+    -> NOTE: In Real World we use mostly "CSV" and "JSON" File Formats 
+
+    -> Working With CSV Data i.e for Data Oriented Courses 
+
+    -> Python has provided "csv" module to work with CSV Data i.e CSV Files 
+
+        -> Very commonly used in "Data Oriented Applications"
+
+        -> https://www.datablist.com/learn_images/csv/google_sheet_csv.png
+
+        -> https://www.slashgear.com/img/gallery/csv-files-explained-what-they-are-and-how-to-open-them/what-are-csv-files-1699455969.jpg
+
+
+        -> The built-in Python csv module allows you to read and write 
+        tabular data in CSV format without installing external libraries.
+
+
+        -> For Fixed Data Sets, we can use "reader" functionality from csv module
+
+            -> students.csv file
+
+        -> For Changing Data Sets, we can use DictReader functionality from csv module
+
+            -> sample.csv file (structure is changed)
+
+    
+    -> The main components of the csv module are:
+        
+            -> csv.reader(file): Reads CSV data and returns each row as a list of strings.
+        
+            -> csv.writer(file): Writes data to a CSV file from lists.
+            
+            -> csv.DictReader(file): Reads data by mapping the information to a dictionary, 
+            using the first row as field names (keys).
+            
+            -> csv.DictWriter(file, fieldnames): Writes data from a list of dictionaries 
+            to a CSV file, using the dictionary keys as column headers.
