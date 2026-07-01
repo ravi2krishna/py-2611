@@ -146,3 +146,157 @@ student_mike = Student("mike","mike@gmail.com")
 student_mike.student_studies() 
 
 print("=" * 50)
+
+# Working With Instance Members 
+class Student:
+    
+    # Constructor i.e __init__() method
+    def __init__(self,student_name,student_email):
+        print("Constructor Called")
+        # Instance Variables self.student_name & self.student_email
+        self.student_name = student_name
+        self.student_email = student_email
+        
+    
+    # Student Does Something - Behaviors / Actions (METHODS)
+    # Instance Method is student_studies()
+    def student_studies(self): # passed "self" nothing but object reference 
+        print("Student Is Studying Python")
+        print("Student Name: ",self.student_name) # Recommended
+        print("Student Email: ",self.student_email) # Not Recommended
+        
+# To Use this class, object is required 
+# student_ravi = Student()
+student_ravi = Student("ravi","ravi@gmail.com")
+student_ravi.student_studies() 
+
+student_john = Student("john","john@gmail.com")
+student_john.student_studies() 
+
+student_mike = Student("mike","mike@gmail.com")
+student_mike.student_studies() 
+
+print("=" * 50)
+
+# Working With Class Members 
+class Student:
+    
+    # Class Variable - "shared by all the objects"
+    institute_name = "Digital Institute"
+    
+    # Constructor i.e __init__() method
+    def __init__(self,student_name,student_email):
+        print("Constructor Called")
+        # Instance Variables self.student_name & self.student_email
+        self.student_name = student_name
+        self.student_email = student_email
+        
+    
+    # Student Does Something - Behaviors / Actions (METHODS)
+    # Instance Method is student_studies()
+    def student_studies(self): # passed "self" nothing but object reference 
+        print("Student Is Studying Python")
+        print("At Institute: ",self.institute_name) # Not Recommended
+        print("Student Name: ",self.student_name) # Recommended
+        print("Student Email: ",self.student_email) # Recommended
+        print("At Institute: ",Student.institute_name) # Recommended
+        
+    # Class Method 
+    @classmethod
+    def change_institute_name(cls,new_institute_name):
+        cls.institute_name = new_institute_name
+        # Accessing instance data inside a class method gives error 
+        # print("Student Name: ",self.student_name) # NameError: name 'self' is not defined
+        
+        
+# To Use this class, object is required 
+# student_ravi = Student()
+student_ravi = Student("ravi","ravi@gmail.com")
+student_ravi.student_studies() 
+
+student_john = Student("john","john@gmail.com")
+student_john.student_studies() 
+
+student_mike = Student("mike","mike@gmail.com")
+student_mike.student_studies() 
+
+# Class Method 
+Student.change_institute_name("New Institute")
+
+student_ravi = Student("ravi","ravi@gmail.com")
+student_ravi.student_studies() 
+
+student_john = Student("john","john@gmail.com")
+student_john.student_studies() 
+
+student_mike = Student("mike","mike@gmail.com")
+student_mike.student_studies() 
+
+
+print("=" * 50)
+
+# Working With Static Members 
+class Student:
+    
+    # Class Variable - "shared by all the objects"
+    institute_name = "Digital Institute"
+    
+    # Constructor i.e __init__() method
+    def __init__(self,student_name,student_email):
+        print("Constructor Called")
+        # Instance Variables self.student_name & self.student_email
+        self.student_name = student_name
+        self.student_email = student_email
+        
+    
+    # Student Does Something - Behaviors / Actions (METHODS)
+    # Instance Method is student_studies()
+    def student_studies(self): # passed "self" nothing but object reference 
+        print("Student Is Studying Python")
+        print("At Institute: ",self.institute_name) # Not Recommended
+        print("Student Name: ",self.student_name) # Recommended
+        print("Student Email: ",self.student_email) # Recommended
+        print("At Institute: ",Student.institute_name) # Recommended
+        
+    # Class Method 
+    @classmethod
+    def change_institute_name(cls,new_institute_name):
+        cls.institute_name = new_institute_name
+        # Accessing instance data inside a class method gives error 
+        # print("Student Name: ",self.student_name) # NameError: name 'self' is not defined
+    
+    # Static Method 
+    @staticmethod
+    def something_not_related_to_class_object(a,b):
+        print("I Do Something that is not associated with Classes & Objects")
+        print("Sum Of Numbers: ",(a+b))
+        
+        
+# To Use this class, object is required 
+# student_ravi = Student()
+student_ravi = Student("ravi","ravi@gmail.com")
+student_ravi.student_studies() 
+
+student_john = Student("john","john@gmail.com")
+student_john.student_studies() 
+
+student_mike = Student("mike","mike@gmail.com")
+student_mike.student_studies() 
+
+# Class Method 
+Student.change_institute_name("New Institute")
+
+student_ravi = Student("ravi","ravi@gmail.com")
+student_ravi.student_studies() 
+
+student_john = Student("john","john@gmail.com")
+student_john.student_studies() 
+
+student_mike = Student("mike","mike@gmail.com")
+student_mike.student_studies() 
+
+
+# Static Method
+Student.something_not_related_to_class_object(10,10)
+
+print("=" * 50)

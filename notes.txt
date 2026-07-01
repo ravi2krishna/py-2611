@@ -2368,3 +2368,128 @@ class - 32
                     self.parameter2 = parameter2
 
 
+class - 33
+==========
+
+    -> Instance Members (Associated With Objects)
+
+        -> Instance Variables 
+
+            -> Instance Variables belongs to an "object" i.e instance, not the class 
+
+            -> Instance Variables are defined in the __init__ method using "self" keyword 
+
+            -> Each Object you create has it's own copy of instance variable with different values 
+
+            -> Accessed via self.variable_name
+
+            -> syntax
+
+                class Demo:
+                    def __init__(self,parameter):
+                        self.instance_var = value 
+
+        -> Instance Methods 
+
+            -> Methods which are defined inside a class which 
+            operates on instance variables 
+
+            -> Instance Methods are "very commonly used" types of methods in OOP 
+
+            -> Instance Methods always take "self" as the first parameter 
+
+            -> Instance Methods can access instance variables and also class variables too 
+
+            -> Called using object_name.method()
+
+    
+
+    -> Class Members (Associated With Class)
+
+        -> Class Variables 
+
+            -> Class Variables are "shared across all the instances of class" 
+            i.e "shared by all the objects" of the class     
+
+            -> Class Variables belong to class, rather than objects, 
+            ideal for storing data that is common/fixed for all objects 
+
+            -> Defined inside the class, but outside the methods 
+
+            -> Accessed using Classname.variable_name or object.variable_name 
+
+                -> Recommended is using Classname.variable_name
+
+            -> NOTE: Class Variables are "memory efficient" as 
+            only one copy is there unlike multiple copies like objects 
+
+            -> syntax
+
+                class Demo:
+                    class_var = "i'm shared data"
+
+
+        -> Class Methods 
+
+            -> Methods which are defined inside a class which 
+            operates on class variables 
+
+            -> Class Methods are not "very commonly used" types of methods in OOP 
+
+            -> Class Methods always take "cls" as the first parameter 
+
+            -> Class Methods are defined using @classmethod decorator 
+
+            -> Class Methods can access class variables, 
+
+                -> NOTE: Accessing instance data inside a class method gives error 
+
+            -> Called using ClassName.method()
+
+
+    -> Static Members (Not Associated With Classes & Objects)
+
+        -> NOTE: In python we don't have Static Variables 
+
+            -> In other languages like java static variable is equivalent to Class Variable 
+
+            -> Static Variable In Other Languages == Class Variable In Python
+        
+        -> Static Methods 
+
+            -> Static Methods are not bound to either class or object  
+
+            -> Static Methods does not depend on instance variable or class variable 
+
+            -> Not a commonly used method 
+
+            -> Don't take self or cls as first parameter 
+
+            -> NOTE: Behaves like a normal function, but inside a class  
+
+            -> Declared used @staticmethod decorator 
+
+            -> Used as utilities / helper functions 
+
+            -> Called Using ClassName
+
+
+    
+    -> Inheritance 
+
+        -> Inheritance is a core OOP concept where a new class, 
+        called a subclass or child class, acquires the 
+        Properties(Variables) and Behaviors(Methods) from an 
+        existing class, called as Super Class or Parent Class.
+
+        -> NOTE: Main purpose of Inheritance is CODE Reusability.
+
+        -> Syntax 
+
+            class Parent:
+                pass 
+
+            class Child(Parent):
+                pass 
+
+        -> Without & With Inheritance 
