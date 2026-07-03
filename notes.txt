@@ -2595,3 +2595,59 @@ class - 34
             Protected -> Single leading underscore -> self._balance -> Convention only; warning not to modify outside the class.
             
             Private -> Double leading underscore -> self.__secret -> Triggers name mangling to prevent accidental overwriting.  
+
+
+class - 35
+==========
+
+    -> Abstraction
+
+        -> Abstraction in OOP is a principle that involves "hiding" complex "implementation" 
+        details and showing only the essential features of an object to the user.
+
+        -> Hiding implementation: means "hiding the internal workings" of an object 
+        and present a simplified view. 
+
+        -> For example, when using an ATM, 
+        you only  interact with a simple interface (card, PIN, cash dispenser) without needing 
+        to know the complex process of backend banking operations that occur. 
+
+            -> No Abstraction
+
+                -> https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdcKKhNUTJx8C2QfcfH_95uu5Zf79wsgimIBnNN7xTtI-xqlJG-6NqWSuh&s=10
+
+            -> Abstraction
+
+                -> https://backend.paiinternational.in/media/images/KK_ruIfgzx.webp
+
+
+    
+        -> How To achieve Abstraction In Python 
+
+            -> Using Abstract Class 
+
+            -> NOTE: Till now what ever the classes we created so far, are Concrete Classes 
+
+        
+        -> An Abstract Class In Python Functions as a "blueprint" for Other Classes,
+        defining a common structure that subclasses must adhere to.
+
+        -> Abstract Class cannot be instantiated directly, meaning you 
+        cannot create objects to Abstract Class 
+
+        -> NOTE: Abstract Classes help you enforce Contract Like Behaviors
+
+        -> Abstract classes are Implemented in Python Using 
+        "abc" module (Abstract Base Class)
+
+            -> from abc import ABC, abstractmethod 
+
+        -> NOTE: To Achieve abstraction, Create a class that inherits from ABC, 
+        inside this class define one or more abstract methods using @abstractmethod decorator  
+
+            -> NOTE: abstract methods have declarations, but no implementation 
+            they typically contain only pass 
+
+        -> NOTE: To Achieve abstraction, Use Abstract Classes & Abstract Methods
+
+            
